@@ -6,6 +6,7 @@ export class CarteProduit{
         this.prix=prix;
     }
     render(){
+        
         return`
             <div class="contenu-class">
                 <img src="../${this.url}" alt="${this.img}" class="image">
@@ -15,5 +16,6 @@ export class CarteProduit{
                 <button class="moins">-</button>
             </div>
         `
+
     } 
 }
