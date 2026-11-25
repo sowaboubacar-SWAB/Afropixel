@@ -7,7 +7,7 @@ fetch("../pictures.json").then(response=>response.json()).then(produits=>{
     for (const article of produits) {
         carte.innerHTML +=`
             <div class="contenu-class">
-                <img src="${article.url}" alt="${article.nom}" class="image">
+                <img src="../${article.url}" alt="${article.nom}" class="image">
                 <h3>${article.nom}</h3>
                 <p class="prix">${article.prix}</p>
                 <button class="plus">+</button>
