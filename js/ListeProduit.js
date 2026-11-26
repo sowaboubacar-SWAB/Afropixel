@@ -5,7 +5,7 @@ export class ListeProduit{
         this.carteProduits=[];
         for(const produit of produits){
             this.carteProduits.push(
-                new CarteProduit(produit.id,produit.url,produit.nom,produit.prix)
+                new CarteProduit(produit)
             )
         }
     }

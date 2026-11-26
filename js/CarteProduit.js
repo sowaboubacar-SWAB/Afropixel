@@ -1,5 +1,5 @@
 export class CarteProduit{
-    constructor(id,url,nom,prix){
+    constructor({id,url,nom,prix}){
         this.id=id;
         this.url=url;
         this.nom=nom;
