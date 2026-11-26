@@ -10,7 +10,6 @@ export class ListeProduit{
         }
     }
     carte(){
-        
         let card = "";
         for (const contenuCard of this.carteProduits){
             card += contenuCard.render();
@@ -38,7 +37,7 @@ export class ListeProduit{
         const btMoins = document.querySelectorAll(".moins");
         btMoins.forEach((bouton,index) => {
             bouton.addEventListener("click",()=>{
-                const produit = CarteProduits[index];
+                const produit = this.CarteProduits[index];
                 panier.retirerProduit(produit.id);
             });
             
