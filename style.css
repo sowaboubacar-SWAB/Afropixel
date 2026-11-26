@@ -73,8 +73,8 @@ button{
 
 .zone-panier.visible {
     position: fixed;
-    top: 6px;
-    left: 20px;
+    top: 50px;
+    right: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
