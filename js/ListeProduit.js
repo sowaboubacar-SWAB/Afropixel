@@ -1,5 +1,4 @@
 import { CarteProduit } from "./CarteProduit.js";
-import { Panier } from "./Panier.js";
 export class ListeProduit{
     constructor(produits){
         this.carteProduits=[];
